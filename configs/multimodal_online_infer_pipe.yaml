@@ -1,0 +1,70 @@
+# 端到端的处理，输入数据为帖子信息（数据需要下载，特征需要提取）
+basic:
+  name: Insight_MultiModal
+  version: 1.0
+  task_name: "multimodal_v01_cls301"
+  task_type: "multi_label"
+  n_gpus: 1                  # 最大8个gpu， 否则会报错
+  seed: 666
+  id2name: "configs/idx2name_cls301.json"
+
+arch:
+  name: "Multi_Fusion_Net"
+  resume: ""
+  best_model: "weights/multimodal_v1_cls301_gap0.7_with_ema.pth"
+  use_ema: false
+  ema_decay: 0.999
+  args:
+    text_dim: 768
+    video_dim: 1536
+    audio_dim: 768
+    num_classes: 301
+
+data:
+  batch_size: 1
+  num_workers: 0
+  infer_data_path: ""
+
+database:
+  db_src_params:
+    host: ""
+    port: 27047
+    db: multimodal_tag
+    table: multimodal_tag_input
+    # "conditions":[["processed:exist:False"],["processed:=:False"]]
+#    conditions:
+#      - - 'processed:exist:False'
+#      - - 'processed:=:False'
+  db_mid_params:
+    host: ""
+    port: 27047
+    db: multimodal_tag
+    table: multimodal_tag_queue
+    # "conditions":[["processed:exist:False"],["processed:=:False"]]
+#    conditions:
+#      - - 'processed:exist:False'
+#      - - 'processed:=:False'
+#  db_dst_params:
+#    host: ""
+#    port: 27047
+#    db: multimodal_tag
+#    table: multimodal_tag_output
+    #"conditions":[[]]
+#    conditions:
+#      - []
+  db_dst_params:
+    host: ""
+    port:
+    db: monet
+    table: post_labels_v3
+
+runner:
+  second_label2idx: "configs/second_label2idx.json"
+  data_temp_dir: "/data02/multimodal_share/data"
+  filter_threshold: 0.2
+  analysis: False
+  save_fused_features: False
+  results_dir: ""
+  log_dir: "/data02/multimodal_share/logs"
+  parallel_num: 1
+  query_time_step: 10

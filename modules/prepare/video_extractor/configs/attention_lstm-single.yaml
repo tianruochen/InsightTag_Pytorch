@@ -1,0 +1,36 @@
+MODEL:
+    name: "AttentionLSTM"
+    dataset: "YouTube-8M"  #Default, don't recommand to modify it
+    bone_nework: None
+    drop_rate: 0.5
+    feature_names: ['rgb']  #rbg only, without audio
+    feature_dims: [2048]
+    embedding_size: 1024
+    lstm_size: 512
+    num_classes: 2
+    topk: 1
+
+TRAIN:
+    epoch: 25
+    learning_rate: 0.000125
+    decay_epochs: [15, 20]
+    decay_gamma: 0.1
+    weight_decay: 0.0008
+    num_samples: 64648  # modify it according to the number samples of your dataset
+    pretrain_base: None
+    batch_size: 128
+    use_gpu: True
+    num_gpus: 1
+    filelist: "/data/changqing/Video_tag_Paddle/tasks/video_blur/v2.0/video_blur_v2_train.list"
+
+VALID:
+    batch_size: 128
+    filelist: "/data/changqing/Video_tag_Paddle/tasks/video_blur/v2.0/video_blur_v2_valid.list"
+
+TEST:
+    batch_size: 1
+    filelist: "/data/changqing/Video_tag_Paddle/finetune_zy/zy_data/v2.2/online_test_v2.2.list"
+
+INFER:
+    batch_size: 1
+    filelist: "/data/changqing/Video_tag_Paddle/finetune_zy/zy_data/v2.2/online_test_v2.2.list"

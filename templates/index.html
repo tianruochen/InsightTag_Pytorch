@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <script type="text/javascript" src="../static/script.js"></script>
+    <script type="text/javascript">
+      window.onload = () => {
+        const elememntDom = document.getElementById(`postcontent`)
+        if (elememntDom && elememntDom.innerText.length < 0) {
+          elememntDom.style.display = 'none'
+        }
+      }
+    </script>
+    <style>
+      #postcontent {
+        width: 75%;
+        padding: 20px;
+        margin: auto;
+      }
+      hr {
+        margin: 6px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!--header-->
+    <div id="wrap">
+      <form
+        name="input"
+        action="http://multimodal-tag-cls301.srv.ixiaochuan.cn/api/inv_infer"
+        method="post"
+      >
+        pid:<input type="text" name="pid" value="{{pid}}" />
+        <input type="submit" value="query" />
+      </form>
+    </div>
+    <!--query result-->
+    <div id="postcontent">
+      <hr />
+      <p>帖子内容：</p>
+      <textarea cols="80" rows="5">{{text_content}}</textarea>
+      <hr />
+      <p>视频:</p>
+      <div class="flex-box">
+        {% for path in video_urls %}
+        <video
+          src="{{path}}"
+          controls="controls"
+          width="300"
+          height="400"
+        ></video>
+        {% endfor %}
+      </div>
+
+      <hr />
+      <p>图片:</p>
+      <div class="flex-box">
+        {% for path in image_urls %}
+        <div class="flex-item">
+          <div class="album-frame">
+            <a href="{{path}}"> <img src='{{path}}' height=200 width=200"> </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <hr />
+      <p style="font-weight: bold">预测结果:</p>
+      <textarea rows="5" cols="80">{{res_info}}</textarea>
+    </div>
+  </body>
+</html>

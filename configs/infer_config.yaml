@@ -1,0 +1,33 @@
+# 输入为已经整理好的数据（各个模态的数据都已索引好）
+basic:
+  name: Insight_MultiModal
+  version: 1.0
+  task_name: "multimodal_v01_cls301"
+  task_type: "multi_label"
+  n_gpus: 1                  # 最大8个gpu， 否则会报错
+  seed: 666
+  id2name: "/data02/changqing/ZyMultiModal_Data/annotations/v1_cls301/idx2name_cls301.json"
+
+arch:
+  name: "Multi_Fusion_Net"
+  resume: ""
+  best_model: "/home/work/changqing/Insight_Multimodal_Pytorch/workshop/multimodal_v01_cls301_0728_215710/ckpt/best_weights.pth"
+  use_ema: false
+  ema_decay: 0.999
+  args:
+    text_dim: 768
+    video_dim: 1536
+    audio_dim: 768
+    num_classes: 301
+
+data:
+  batch_size: 64
+  num_workers: 4
+  infer_data_path: "/data02/changqing/ZyMultiModal_Data/annotations/v1_cls301/valid_cls301.json"
+
+runner:
+  results_dir: ""
+
+loss: bce_loss
+metrics: multi_label
+

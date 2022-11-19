@@ -1,0 +1,39 @@
+basic:
+  name: Insight_MultiModal
+  version: 1.0
+  task_name: "multimodal_v01_cls301"
+  task_type: "multi_label"
+  n_gpus: 1                  # 最大8个gpu， 否则会报错
+  seed: 666
+  id2name: "/data02/changqing/ZyMultiModal_Data/annotations/v1_cls301/idx2name_cls301.json"
+
+arch:
+  name: "Multi_Fusion_Net"
+  resume: ""
+  best_model: "/home/work/changqing/Insight_Multimodal_Pytorch/weights/multimodal_v1_cls301_gap0.7_with_ema.pth"
+  use_ema: false
+  ema_decay: 0.999
+  args:
+    text_dim: 768
+    video_dim: 1536
+    audio_dim: 768
+    num_classes: 301
+
+data:
+  batch_size: 1
+  num_workers: 4
+  infer_data_path: "/data02/changqing/ZyMultiModal_Data/annotations/v2_cls301/train_cls301_86w.json" #"/data02/changqing/ZyMultiModal_Data/annotations/v1_cls301/valid_cls301.json"
+#  infer_data_path: "/data02/changqing/ZyMultiModal_Data/annotations/v2_cls301/valid_cls301_15w.json" #"/data02/changqing/ZyMultiModal_Data/annotations/v1_cls301/valid_cls301.json"
+
+runner:
+  analysis: False
+  save_fused_features: True
+  results_dir: "/home/work/changqing/Insight_Multimodal_Pytorch/workshop/multimodal_v01_cls301_0825_104526/res/train"
+               #"/home/work/changqing/Insight_Multimodal_Pytorch/workshop/multimodal_v01_cls301_0801_162743/res/test"
+
+loss: bce_loss
+metrics: multi_label
+save_fused_features: True
+vf_save_root: "/data02/changqing/ZyMultiModal_Data/fused_features/fused_video_features"
+af_save_root: "/data02/changqing/ZyMultiModal_Data/fused_features/fused_audio_features"
+tf_save_root: "/data02/changqing/ZyMultiModal_Data/fused_features/fused_text_features"

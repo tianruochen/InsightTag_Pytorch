@@ -1,0 +1,590 @@
+[
+    {
+        "pid": "285672585",
+        "labels_name": [
+            "聚众场合_婚礼",
+            "情感_爱情",
+            "社会关系_情侣夫妻"
+        ],
+        "labels_idx": [
+            255,
+            90,
+            212
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/285672585.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1953502657.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1953502657.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1953502657.npy"
+        ],
+        "text_content": "娶到喜欢的人真的跟打了胜仗一样！\n我的战役，还在继续😂"
+    },
+    {
+        "pid": "286417379",
+        "labels_name": [
+            "生活_其他",
+            "截图录屏_通讯软件截图录屏",
+            "截图录屏_聊天记录截屏录屏"
+        ],
+        "labels_idx": [
+            195,
+            104,
+            100
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/286417379.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1957991235.npy"
+        ],
+        "text_content": "总有人会爱你，或早或晚，我很幸运"
+    },
+    {
+        "pid": "284606609",
+        "labels_name": [
+            "动植物_花束",
+            "社会关系_情侣夫妻",
+            "秀身材_秀颜值",
+            "情感_爱情"
+        ],
+        "labels_idx": [
+            24,
+            212,
+            218,
+            90
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/284606609.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1946865285.npy",
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1946865286.npy",
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1946865287.npy",
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1946865288.npy"
+        ],
+        "text_content": "求婚啦求婚啦\n我说我愿意❤"
+    },
+    {
+        "pid": "285217948",
+        "labels_name": [
+            "社会关系_情侣夫妻",
+            "情绪_负向情绪",
+            "截图录屏_通讯软件截图录屏",
+            "情感_爱情",
+            "截图录屏_聊天记录截屏录屏"
+        ],
+        "labels_idx": [
+            212,
+            92,
+            104,
+            90,
+            100
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/285217948.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1950747211.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1950747212.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1950747213.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1950747214.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1950747215.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1950747216.npy"
+        ],
+        "text_content": "我应该怎么办啊，真的好喜欢他，不想分手，当身边的人都劝我"
+    },
+    {
+        "pid": "283605974",
+        "labels_name": [
+            "美食_美食分享",
+            "社会关系_情侣夫妻",
+            "截图录屏_通讯软件截图录屏",
+            "情感_爱情",
+            "截图录屏_聊天记录截屏录屏"
+        ],
+        "labels_idx": [
+            229,
+            212,
+            104,
+            90,
+            100
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/283605974.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1940530224.npy"
+        ],
+        "text_content": "只有感受到被爱时 才是最快乐的"
+    },
+    {
+        "pid": "284070147",
+        "labels_name": [
+            "影视_影视剧"
+        ],
+        "labels_idx": [
+            84
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/284070147.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1943485680.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1943485680.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1943485680.npy"
+        ],
+        "text_content": "双向奔赴才有意义，单方面努力是没用的"
+    },
+    {
+        "pid": "283885276",
+        "labels_name": [
+            "社会关系_情侣夫妻",
+            "秀身材_秀颜值",
+            "兴趣爱好_摄影",
+            "情感_爱情"
+        ],
+        "labels_idx": [
+            212,
+            218,
+            9,
+            90
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/283885276.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1942336078.npy"
+        ],
+        "text_content": "两年啦～嗖的一下就成你老婆了"
+    },
+    {
+        "pid": "283229769",
+        "labels_name": [
+            "人物_女性",
+            "运动场_其他",
+            "秀身材_秀颜值"
+        ],
+        "labels_idx": [
+            2,
+            295,
+            218
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/283229769.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1938221293.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1938221293.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1938221293.npy"
+        ],
+        "text_content": "男孩子爱你表现是什么？？？"
+    },
+    {
+        "pid": "285282457",
+        "labels_name": [
+            "室外_城市街道",
+            "自然_朝霞晚霞"
+        ],
+        "labels_idx": [
+            64,
+            262
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/285282457.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1951158888.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1951158888.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1951158888.npy"
+        ],
+        "text_content": "我想结婚了"
+    },
+    {
+        "pid": "285169279",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值"
+        ],
+        "labels_idx": [
+            2,
+            218
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/285169279.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1950443400.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1950443400.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1950443400.npy"
+        ],
+        "text_content": "所以，被爱的前提就一定是漂亮吗？"
+    },
+    {
+        "pid": "284340420",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值"
+        ],
+        "labels_idx": [
+            2,
+            218
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/284340420.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1945203350.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1945203350.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1945203350.npy"
+        ],
+        "text_content": "余生很长，请多多关照！"
+    },
+    {
+        "pid": "283128969",
+        "labels_name": [
+            "校园_其他",
+            "社会关系_情侣夫妻",
+            "情感_爱情"
+        ],
+        "labels_idx": [
+            162,
+            212,
+            90
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/283128969.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1937586752.npy"
+        ],
+        "text_content": "在学校门口拿外卖的时候想给外卖小哥拍我的位置，拍完发现一对情侣入镜了，这一刻好像又相信爱情了"
+    },
+    {
+        "pid": "285760338",
+        "labels_name": [
+            "社会关系_暧昧异性",
+            "情感_爱情"
+        ],
+        "labels_idx": [
+            213,
+            90
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/285760338.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1954074986.npy"
+        ],
+        "text_content": "真正喜欢一个人的时候会在意对方的声音吗"
+    },
+    {
+        "pid": "285542980",
+        "labels_name": [
+            "情感_爱情",
+            "社会关系_情侣夫妻",
+            "截图录屏_通讯软件截图录屏",
+            "截图录屏_聊天记录截屏录屏"
+        ],
+        "labels_idx": [
+            90,
+            212,
+            104,
+            100
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/285542980.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1952755345.npy"
+        ],
+        "text_content": "双向奔赴的爱值得一年又一年"
+    },
+    {
+        "pid": "285951930",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值"
+        ],
+        "labels_idx": [
+            2,
+            218
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/285951930.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1955237558.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1955237558.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955237558.npy"
+        ],
+        "text_content": "好像大家都有在被好好爱着"
+    },
+    {
+        "pid": "285118291",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值"
+        ],
+        "labels_idx": [
+            2,
+            218
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/285118291.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1950144258.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1950144258.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1950144258.npy"
+        ],
+        "text_content": "有感觉了吗"
+    },
+    {
+        "pid": "283497341",
+        "labels_name": [
+            "影视_影视剧"
+        ],
+        "labels_idx": [
+            84
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/283497341.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1939882900.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1939882900.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1939882900.npy"
+        ],
+        "text_content": "燕子，燕子"
+    },
+    {
+        "pid": "286028611",
+        "labels_name": [
+            "社会关系_情侣夫妻",
+            "秀身材_秀颜值",
+            "情感_爱情"
+        ],
+        "labels_idx": [
+            212,
+            218,
+            90
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/286028611.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955719003.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955719004.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955719005.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955719006.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955719007.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955719008.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955719009.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955719010.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1955719011.npy"
+        ],
+        "text_content": "我很喜欢他，幸运的是他也喜欢我💑"
+    },
+    {
+        "pid": "285667858",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值"
+        ],
+        "labels_idx": [
+            2,
+            218
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/285667858.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1953470262.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1953470262.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1953470262.npy"
+        ],
+        "text_content": "想住在你心里，没有邻居的那种"
+    },
+    {
+        "pid": "282921710",
+        "labels_name": [
+            "情感_爱情",
+            "社会关系_情侣夫妻",
+            "截图录屏_通讯软件截图录屏",
+            "截图录屏_聊天记录截屏录屏"
+        ],
+        "labels_idx": [
+            90,
+            212,
+            104,
+            100
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/282921710.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1936188139.npy"
+        ],
+        "text_content": "事事有回应真的让人很心动"
+    },
+    {
+        "pid": "284408842",
+        "labels_name": [
+            "社会关系_情侣夫妻",
+            "情感_爱情"
+        ],
+        "labels_idx": [
+            212,
+            90
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/284408842.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1945598835.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1945598880.npy"
+        ],
+        "text_content": "爱了六年 家人们"
+    },
+    {
+        "pid": "283686098",
+        "labels_name": [
+            "室外_城市街道",
+            "室外_夜景",
+            "社会关系_情侣夫妻",
+            "情感_爱情"
+        ],
+        "labels_idx": [
+            64,
+            65,
+            212,
+            90
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/283686098.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1941107038.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1941107038.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1941107038.npy"
+        ],
+        "text_content": "有你在我才心安"
+    },
+    {
+        "pid": "286257532",
+        "labels_name": [
+            "生活_其他",
+            "人物_女性",
+            "社会关系_情侣夫妻",
+            "秀身材_秀颜值"
+        ],
+        "labels_idx": [
+            195,
+            2,
+            212,
+            218
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/286257532.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1957058145.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1957058186.npy"
+        ],
+        "text_content": "以前谈过几段恋爱 但是他们好像都不愿意朋友圈公开我 情头都不愿意用 所以被爱的入场券到底是什么"
+    },
+    {
+        "pid": "283032141",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值"
+        ],
+        "labels_idx": [
+            2,
+            218
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/283032141.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1936963152.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1936963152.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1936963152.npy"
+        ],
+        "text_content": "一直发，一直发，直到有人爱上我"
+    },
+    {
+        "pid": "286427564",
+        "labels_name": [
+            "自然_日出日落",
+            "情绪_负向情绪",
+            "情感_爱情",
+            "动植物_花束"
+        ],
+        "labels_idx": [
+            261,
+            92,
+            90,
+            24
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/286427564.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1958061093.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1958061093.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1958061093.npy"
+        ],
+        "text_content": "就因为一句我爱你…"
+    },
+    {
+        "pid": "286136650",
+        "labels_name": [
+            "社会关系_情侣夫妻",
+            "情感_爱情"
+        ],
+        "labels_idx": [
+            212,
+            90
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/286136650.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1956349322.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1956349322.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1956349322.npy"
+        ],
+        "text_content": "这样满眼都是你的男孩谁不爱呢？"
+    }
+]

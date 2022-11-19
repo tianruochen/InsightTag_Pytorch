@@ -1,0 +1,986 @@
+[
+    {
+        "pid": "275556376",
+        "labels_name": [
+            "截图录屏_聊天记录截屏录屏",
+            "截图录屏_通讯软件截图录屏",
+            "搞笑_其他"
+        ],
+        "labels_idx": [
+            100,
+            104,
+            109
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/275556376.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1882184648.npy"
+        ],
+        "image_ids": [
+            1882184648
+        ],
+        "video_infos": {},
+        "text_content": "怎么破？"
+    },
+    {
+        "pid": "273050429",
+        "labels_name": [
+            "游戏_其他"
+        ],
+        "labels_idx": [
+            169
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/273050429.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1864199656.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1864199656.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1864199656.npy"
+        ],
+        "image_ids": [
+            1864199656
+        ],
+        "video_infos": {
+            "1864199656": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/71/dd/7786-a5b4-11ec-a3e9-00163e143aa6",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "《那些年玩过的橙光游戏》"
+    },
+    {
+        "pid": "270126856",
+        "labels_name": [
+            "情绪_正向情绪"
+        ],
+        "labels_idx": [
+            91
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/270126856.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1842869279.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1842869279.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1842869279.npy"
+        ],
+        "image_ids": [
+            1842869279
+        ],
+        "video_infos": {
+            "1842869279": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/84/69/f572-9740-11ec-9894-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": ""
+    },
+    {
+        "pid": "289861906",
+        "labels_name": [
+            "考试_高考"
+        ],
+        "labels_idx": [
+            238
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/289861906.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1980585660.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1980585660.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1980585660.npy"
+        ],
+        "image_ids": [
+            1980585660
+        ],
+        "video_infos": {
+            "1980585660": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/d1/da/110f-f30e-11ec-9324-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": ""
+    },
+    {
+        "pid": "265641170",
+        "labels_name": [
+            "动植物_狗",
+            "搞笑_其他"
+        ],
+        "labels_idx": [
+            22,
+            109
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/265641170.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1808299580.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1808299580.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1808299580.npy"
+        ],
+        "image_ids": [
+            1808299580
+        ],
+        "video_infos": {
+            "1808299580": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvd/264/80/af/fb7d-83dd-11ec-a3e9-00163e143aa6",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "他给的太多了"
+    },
+    {
+        "pid": "261894147",
+        "labels_name": [
+            "社会关系_同事工友",
+            "职业身份_工厂技工",
+            "搞笑_其他",
+            "办公场所_工厂"
+        ],
+        "labels_idx": [
+            209,
+            248,
+            109,
+            15
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/261894147.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1779106284.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1779106284.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1779106284.npy"
+        ],
+        "image_ids": [
+            1779106284
+        ],
+        "video_infos": {
+            "1779106284": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/1c/ec/9689-722f-11ec-bc1e-00163e143aa6",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "电子厂现在已经这样了吗  现在去还来得及吗"
+    },
+    {
+        "pid": "263238773",
+        "labels_name": [
+            "教程解说_解说",
+            "游戏_我的世界"
+        ],
+        "labels_idx": [
+            116,
+            173
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/263238773.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1789394790.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1789394790.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1789394790.npy"
+        ],
+        "image_ids": [
+            1789394790
+        ],
+        "video_infos": {
+            "1789394790": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/14/b4/765d-7946-11ec-9894-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "我的世界继续填坑 建筑教学 egg建筑师 \n一起来玩啊 墨迹啥~~~🤔"
+    },
+    {
+        "pid": "287663371",
+        "labels_name": [
+            "兴趣爱好_鉴宝",
+            "服饰配饰_首饰饰品"
+        ],
+        "labels_idx": [
+            11,
+            152
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/287663371.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1965900104.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1965900104.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1965900104.npy"
+        ],
+        "image_ids": [
+            1965900104
+        ],
+        "video_infos": {
+            "1965900104": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/b3/83/117e-e8c5-11ec-a34a-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "给小姐姐磨了胚子17.5的珠子，，做啥题材比较合适呢？？？"
+    },
+    {
+        "pid": "278288233",
+        "labels_name": [
+            "工作_吐槽碎碎念",
+            "情绪_正向情绪"
+        ],
+        "labels_idx": [
+            75,
+            91
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/278288233.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1904506875.npy"
+        ],
+        "image_ids": [
+            1904506875
+        ],
+        "video_infos": {},
+        "text_content": "累并快乐着的打工人"
+    },
+    {
+        "pid": "288855068",
+        "labels_name": [
+            "搞笑_恶搞"
+        ],
+        "labels_idx": [
+            110
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/288855068.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1973869739.npy"
+        ],
+        "image_ids": [
+            1973869739
+        ],
+        "video_infos": {},
+        "text_content": "和老婆是在最右认识的\n说来也奇怪\n那天刚一上线\n就看她在那疯狂点...展开"
+    },
+    {
+        "pid": "264469811",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值",
+            "搞笑_其他",
+            "美食_水果"
+        ],
+        "labels_idx": [
+            2,
+            218,
+            109,
+            228
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/264469811.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1798959862.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1798959862.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1798959862.npy"
+        ],
+        "image_ids": [
+            1798959862
+        ],
+        "video_infos": {
+            "1798959862": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/25/9d/eb6d-7eb0-11ec-9894-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "我怕被我好友看到这个视频，我都嫌的丢人"
+    },
+    {
+        "pid": "279374239",
+        "labels_name": [
+            "职业身份_学生",
+            "搞笑_其他"
+        ],
+        "labels_idx": [
+            245,
+            109
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/279374239.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1912810176.npy"
+        ],
+        "image_ids": [
+            1912810176
+        ],
+        "video_infos": {},
+        "text_content": "抽子们，交作业的时候可以说什么骚话"
+    },
+    {
+        "pid": "273719437",
+        "labels_name": [
+            "服饰配饰_手表"
+        ],
+        "labels_idx": [
+            149
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/273719437.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1868954743.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1868954743.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1868954743.npy"
+        ],
+        "image_ids": [
+            1868954743
+        ],
+        "video_infos": {
+            "1868954743": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/7f/7d/2ba6-a8b3-11ec-9894-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": ""
+    },
+    {
+        "pid": "273914663",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值"
+        ],
+        "labels_idx": [
+            2,
+            218
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/273914663.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1870412110.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1870412110.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1870412110.npy"
+        ],
+        "image_ids": [
+            1870412110
+        ],
+        "video_infos": {
+            "1870412110": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/08/40/f99f-a99a-11ec-9894-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": ""
+    },
+    {
+        "pid": "288792281",
+        "labels_name": [
+            "搞笑_其他"
+        ],
+        "labels_idx": [
+            109
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/288792281.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1973464335.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1973464335.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1973464335.npy"
+        ],
+        "image_ids": [
+            1973464335
+        ],
+        "video_infos": {
+            "1973464335": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvd/264/ce/f8/b5ce-ee2c-11ec-87c3-00163e143aa6",
+                "video_ocr": ""
+            }
+        },
+        "text_content": ""
+    },
+    {
+        "pid": "268850113",
+        "labels_name": [
+            "工作_吐槽碎碎念",
+            "职业身份_医护人员",
+            "办公场所_医院"
+        ],
+        "labels_idx": [
+            75,
+            242,
+            14
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/268850113.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1833258493.npy",
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1833258494.npy"
+        ],
+        "image_ids": [
+            1833258493,
+            1833258494
+        ],
+        "video_infos": {},
+        "text_content": "真令人窒息"
+    },
+    {
+        "pid": "271226875",
+        "labels_name": [
+            "教程解说_解说",
+            "机械载具_汽车"
+        ],
+        "labels_idx": [
+            116,
+            158
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/271226875.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1850911279.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1850911279.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1850911279.npy"
+        ],
+        "image_ids": [
+            1850911279
+        ],
+        "video_infos": {
+            "1850911279": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/94/5b/6369-9ce7-11ec-a3e9-00163e143aa6",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "日本居然不制造电动汽车？？"
+    },
+    {
+        "pid": "269934345",
+        "labels_name": [
+            "明星名人_明星",
+            "生活_追星"
+        ],
+        "labels_idx": [
+            134,
+            203
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/269934345.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1841470015.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1841470015.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1841470015.npy"
+        ],
+        "image_ids": [
+            1841470015
+        ],
+        "video_infos": {
+            "1841470015": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/ea/0e/178a-9651-11ec-9894-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "菅田将晖\n小小的搞一个混剪吧好帅哈哈\nSuda Masaki"
+    },
+    {
+        "pid": "290933173",
+        "labels_name": [
+            "生活_其他"
+        ],
+        "labels_idx": [
+            195
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/290933173.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1987357223.npy"
+        ],
+        "image_ids": [
+            1987357223
+        ],
+        "video_infos": {},
+        "text_content": "你永远不知道你做的椅子 上一秒放了什么😂"
+    },
+    {
+        "pid": "273764677",
+        "labels_name": [
+            "医疗_药物"
+        ],
+        "labels_idx": [
+            30
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/273764677.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1869330868.npy",
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1869330869.npy"
+        ],
+        "image_ids": [
+            1869330868,
+            1869330869
+        ],
+        "video_infos": {},
+        "text_content": "宝子们，吃这个可以变白嘛"
+    },
+    {
+        "pid": "262746122",
+        "labels_name": [
+            "社会关系_兄弟姐妹",
+            "生活_其他",
+            "搞笑_其他"
+        ],
+        "labels_idx": [
+            208,
+            195,
+            109
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/262746122.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1785499161.npy",
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1785499162.npy"
+        ],
+        "image_ids": [
+            1785499161,
+            1785499162
+        ],
+        "video_infos": {},
+        "text_content": "请问你们男生的袜子都是这样的吗？这是我弟的，有被笑到"
+    },
+    {
+        "pid": "290212485",
+        "labels_name": [
+            "资源站_头像",
+            "特殊风格_二次元"
+        ],
+        "labels_idx": [
+            269,
+            185
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/290212485.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1982696323.npy"
+        ],
+        "image_ids": [
+            1982696323
+        ],
+        "video_infos": {},
+        "text_content": ""
+    },
+    {
+        "pid": "281652782",
+        "labels_name": [
+            "特殊风格_二次元"
+        ],
+        "labels_idx": [
+            185
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/281652782.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1927994492.npy"
+        ],
+        "image_ids": [
+            1927994492
+        ],
+        "video_infos": {},
+        "text_content": ""
+    },
+    {
+        "pid": "289664707",
+        "labels_name": [
+            "时尚_时尚穿搭",
+            "服饰配饰_男装"
+        ],
+        "labels_idx": [
+            130,
+            150
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/289664707.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1979359008.npy"
+        ],
+        "image_ids": [
+            1979359008
+        ],
+        "video_infos": {},
+        "text_content": "我这穿搭真的不好看嘛"
+    },
+    {
+        "pid": "278724254",
+        "labels_name": [
+            "影视_动画片",
+            "搞笑_搞笑配音"
+        ],
+        "labels_idx": [
+            81,
+            111
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/278724254.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1907967171.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1907967171.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1907967171.npy"
+        ],
+        "image_ids": [
+            1907967171
+        ],
+        "video_infos": {
+            "1907967171": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/dc/a7/f67f-be52-11ec-bc86-00163e143aa6",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "😏有兄弟能模仿一下吗"
+    },
+    {
+        "pid": "262592817",
+        "labels_name": [
+            "截图录屏_聊天记录截屏录屏",
+            "占卜_星座",
+            "情感_爱情"
+        ],
+        "labels_idx": [
+            100,
+            31,
+            90
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/262592817.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1784355918.npy"
+        ],
+        "image_ids": [
+            1784355918
+        ],
+        "video_infos": {},
+        "text_content": "我是个渣男！！"
+    },
+    {
+        "pid": "268859007",
+        "labels_name": [
+            "时尚_健身美体",
+            "室外_广场"
+        ],
+        "labels_idx": [
+            129,
+            67
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/268859007.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1833326873.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1833326873.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1833326873.npy"
+        ],
+        "image_ids": [
+            1833326873
+        ],
+        "video_infos": {
+            "1833326873": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/45/75/914d-9121-11ec-9894-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "大爷的养生招式！"
+    },
+    {
+        "pid": "267788329",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值",
+            "情绪_负向情绪"
+        ],
+        "labels_idx": [
+            2,
+            218,
+            92
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/267788329.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1825514057.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1825514057.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1825514057.npy"
+        ],
+        "image_ids": [
+            1825514057
+        ],
+        "video_infos": {
+            "1825514057": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/eb/be/911d-8c8e-11ec-a3e9-00163e143aa6",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "为什么会生病啊为什么生命会有倒计时啊为什么啊为什么不能是个健健康康的正常人为什么好不了为什么不能对喜欢的人负责啊连去追寻的资格都没有凭什么啊"
+    },
+    {
+        "pid": "263385669",
+        "labels_name": [
+            "社会关系_情侣夫妻",
+            "生活_其他"
+        ],
+        "labels_idx": [
+            212,
+            195
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/263385669.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1790590486.npy"
+        ],
+        "image_ids": [
+            1790590486
+        ],
+        "video_infos": {},
+        "text_content": "怎么和女朋友聊天 在线等 挺急的 我女朋友是属于那种很冷淡 我不找她 她也不找我 但是又很疼我 会为了我拒绝一切暧昧关系 但是我们一个月都不怎么聊 救命呐 虽然我知道不聊天我们关系也不会变淡 但是我真的好没安全感 每次和她聊天都不知道聊什么 姐妹们 知道怎么找话题吗"
+    },
+    {
+        "pid": "287889520",
+        "labels_name": [
+            "生活_其他",
+            "搞笑_其他",
+            "室外_游乐场"
+        ],
+        "labels_idx": [
+            195,
+            109,
+            68
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/287889520.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1967303262.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1967303262.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1967303262.npy"
+        ],
+        "image_ids": [
+            1967303262
+        ],
+        "video_infos": {
+            "1967303262": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/9d/ac/020e-e9bd-11ec-87c3-00163e143aa6",
+                "video_ocr": ""
+            }
+        },
+        "text_content": ""
+    },
+    {
+        "pid": "278240293",
+        "labels_name": [
+            "考试_驾考"
+        ],
+        "labels_idx": [
+            237
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/278240293.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [],
+        "image_ids": [],
+        "video_infos": {},
+        "text_content": "柚子们 你们都是多少钱报名的驾校啊 我报了4400然后教练说是包科目二和科目三其他不包的 我也不知道这包含了哪些费用 然后科目一考试当天在驾校说临时交200元考试费，今天教练说科目二和科目三模拟费用要近一千块钱  是不是被坑了啊"
+    },
+    {
+        "pid": "277019865",
+        "labels_name": [
+            "截图录屏_通讯软件截图录屏",
+            "截图录屏_聊天记录截屏录屏",
+            "生活_其他",
+            "情绪_负向情绪"
+        ],
+        "labels_idx": [
+            104,
+            100,
+            195,
+            92
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/277019865.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1892805714.npy"
+        ],
+        "image_ids": [
+            1892805714
+        ],
+        "video_infos": {},
+        "text_content": "重组家庭真的没那个味"
+    },
+    {
+        "pid": "279230257",
+        "labels_name": [
+            "人物_女性",
+            "秀身材_秀颜值",
+            "特殊风格_自拍特效"
+        ],
+        "labels_idx": [
+            2,
+            218,
+            189
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/279230257.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1911754924.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1911754924.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1911754924.npy"
+        ],
+        "image_ids": [
+            1911754924
+        ],
+        "video_infos": {
+            "1911754924": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/e5/fe/dca5-c0a7-11ec-9b89-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "智者不入爱河"
+    },
+    {
+        "pid": "281834768",
+        "labels_name": [
+            "截图录屏_聊天记录截屏录屏",
+            "截图录屏_通讯软件截图录屏",
+            "社会关系_情侣夫妻",
+            "搞笑_其他"
+        ],
+        "labels_idx": [
+            100,
+            104,
+            212,
+            109
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/281834768.json",
+        "video_feature_paths": [],
+        "audio_feature_paths": [],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1929157133.npy"
+        ],
+        "image_ids": [
+            1929157133
+        ],
+        "video_infos": {},
+        "text_content": "《关于我男朋友不守男德这件事》"
+    },
+    {
+        "pid": "277112523",
+        "labels_name": [
+            "影视_国产动漫"
+        ],
+        "labels_idx": [
+            83
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_SuppData/texts_feature/277112523.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/videos_feature/vit/1893518360.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/audios_feature/1893518360.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_SuppData/images_feature/vit1x1024/1893518360.npy"
+        ],
+        "image_ids": [
+            1893518360
+        ],
+        "video_infos": {
+            "1893518360": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvqwz/264/bf/b1/fe1e-b75c-11ec-9b89-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "天道:我本来想用一箱钱买的"
+    },
+    {
+        "pid": "268222137",
+        "labels_name": [
+            "商业场所_咖啡奶茶店",
+            "资讯_社会新闻-负向",
+            "职业身份_公检法"
+        ],
+        "labels_idx": [
+            33,
+            279,
+            239
+        ],
+        "text_feature_path": "/data02/changqing/ZyMultiModal_Data/texts_feature/268222137.json",
+        "video_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/videos_feature/vit/1828666633.npy"
+        ],
+        "audio_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/audios_feature/1828666633.npy"
+        ],
+        "image_feature_paths": [
+            "/data02/changqing/ZyMultiModal_Data/images_feature/vit1x1024/1828666633.npy"
+        ],
+        "image_ids": [
+            1828666633
+        ],
+        "video_infos": {
+            "1828666633": {
+                "video_url": "http://tbvideo.ixiaochuan.cn/zyvd/264/36/27/4a3c-8e3f-11ec-9894-00163e0e67b8",
+                "video_ocr": ""
+            }
+        },
+        "text_content": "转载一下，毕竟我没有喝过星巴克😳😳"
+    }
+]
